@@ -8,7 +8,10 @@ export const routePath = {
 } as const
 
 export const routes: BaseRoute[] = [
-  { label: "Home", to: routePath.home },
-  { label: "Translation", to: routePath.translation },
-  { label: "Coming Soon", to: routePath.comingSoon, isComingSoon: true },
+  { label: "ĐỒNG HỒ NAM", to: routePath.home },
+  { label: "ĐỒNG HỒ NỮ", to: routePath.translation },
+  { label: "GIỚI THIỆU", to: routePath.translation },
+  { label: "PHỤ KIỆN ĐỒNG HỒ", to: routePath.translation },
+  { label: "KIẾN THỨC ĐỒNG HỒ", to: routePath.translation },
+  { label: "TIN TỨC", to: routePath.translation },
 ]

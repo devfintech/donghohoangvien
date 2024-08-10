@@ -1,3 +1,4 @@
+import { Footer } from "@/components/layouts/footer"
 import { Header } from "@/components/layouts/header"
 import { FC } from "react"
 import { Outlet } from "react-router-dom"
@@ -12,7 +13,7 @@ export const DefaultLayout: FC<DefaultLayoutProps> = () => {
       <main className="">
         <Outlet />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
